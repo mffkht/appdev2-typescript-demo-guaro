@@ -5,7 +5,7 @@
     userRole = 'guess'
     // anotherUserRole = 'superadmin'
 
-    function access(role: 'admin' | 'guess' | 'teacher' | 'student') {
+    function access(role: 'admin' | 'guess' | 'Principal' | 'student') {
         // ...
     }
 })
