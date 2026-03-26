@@ -30,7 +30,7 @@
     // () => void - function type
     function performJob(cb: (m: string) => void) {  // you can also use cb: Function but () => void is the best practice
         // ...
-        cb('Job Done!')
+        cb('Job well Done!')
     }
 
     let logMsg = (msg: string): void => {
@@ -47,8 +47,8 @@
     }
 
     let user: User = {
-        name: "Elmer",
-        age: 39,
+        name: "Maffia",
+        age: 20,
         // greet: function() {
         //     return this.name
         // }
