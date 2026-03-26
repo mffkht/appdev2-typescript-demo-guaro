@@ -1,9 +1,9 @@
 // Optional Values in parameter
-function generateError(msg?: string) {
-    throw new Error(msg)
+function generateError(msg: string = "Something went wrong") {
+    throw new Error(msg);
 }
 
-generateError("An error occured") // Automatic Semicolon Insertion pitfall - add ; to explicitly tell that this is a function
+generateError("An error occurred"); // Automatic Semicolon Insertion pitfall - add ; to explicitly tell that this is a function
 // generateError()
 
 
@@ -16,8 +16,8 @@ generateError("An error occured") // Automatic Semicolon Insertion pitfall - add
     }
 
     let user: User = {
-        name: 'Elmer',
-        age: 31
+        name: 'Maffia',
+        age: 20
     }
 
     user.name
