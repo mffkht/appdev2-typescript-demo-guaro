@@ -1,7 +1,7 @@
 (() => {
     // Type Aliases or Custom Types
     // use `type` keyword to create custom type
-    type Role = 'admin' | 'guess' | 'teacher' | 'student'
+    type Role = 'admin' | 'guess' | 'Principal' | 'student'
 
     // Complex Object Type Definition
     type User = {
