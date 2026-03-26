@@ -5,7 +5,7 @@ let userAge: number = 20;
 
 // ...
 
-userAge = 31;
+userAge = 20;
 
 console.log(`Username - ${userName}`);
 console.log(`Age - ${userAge}`);
