@@ -1,12 +1,12 @@
-const inputEl = document.getElementById('user-name')
+const inputEl = document.getElementById('user-name');
 
-console.log(inputEl.value) // This line is unsafe because inputEl might be null
-
-if (!inputEl) {
-    throw new Error('Element not found!');
+// First: check if element exists AND is an input
+if (!(inputEl instanceof HTMLInputElement)) {
+    throw new Error('Input element not found!');
 }
 
-console.log(inputEl.value)
+// Now it's 100% safe
+console.log(inputEl.value);
 
 // You can convince TypeScript that you are sure the value will not be null by using the non-null assertion operator `!`
 // You can use the optional chaining `?.` operator to safely check if value is not null before the next operation
