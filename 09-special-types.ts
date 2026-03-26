@@ -2,12 +2,12 @@
 let a: null;
 
 a = null
-// a = "Hi"
+// a = "What's up"
 
 let b: null | string
 
 b = null
-b = "Hi"
+b = "What's up"
 // b = 10
 
 // Special Type - undefined
@@ -15,11 +15,11 @@ let c: undefined;
 
 c = undefined
 // c = null
-// c = "Hi"
+// c = "What's up"
 
 let d: undefined | string
 
 d = undefined
-d = "Hi"
+d = "What's up"
 // d = null
 // d = 10
