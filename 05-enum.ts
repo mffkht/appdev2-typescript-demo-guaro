@@ -3,8 +3,8 @@
         // SuperAdmin,
         // SuperAdmin = 1,
         SuperAdmin = 'SuperAdmin',
-        // Teacher,
-        Teacher = 'Teacher',
+        // Principal,
+        Principal = 'Principal',
         // Student,
         Student = 'Student',
     }
